@@ -1,0 +1,7 @@
+<map id="MeshGen" name="MeshGen">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,503,232,785"/>
+<area shape="rect" id="Node000002" href="$class_noise_settings.html" title=" " alt="" coords="23,124,214,439"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,438,122,486,116,486,116,438"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="66,5,172,75"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="122,90,122,124,116,124,116,90"/>
+</map>

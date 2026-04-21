@@ -1,0 +1,51 @@
+\doxysection{Mesh\+Gen Class Reference}
+\hypertarget{class_mesh_gen}{}\label{class_mesh_gen}\index{MeshGen@{MeshGen}}
+
+
+Collaboration diagram for Mesh\+Gen\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_mesh_gen__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Mesh \mbox{\hyperlink{class_mesh_gen_ac0def996b74d806032174f60f7be1215}{Generate\+Mesh}} (int res, string ID, Vector3 position)
+\item 
+\Hypertarget{class_mesh_gen_a8d7bc4c4b73f28260d67b3f75e4ce9a5}\label{class_mesh_gen_a8d7bc4c4b73f28260d67b3f75e4ce9a5} 
+static Vector3\mbox{[}$\,$\mbox{]} {\bfseries Create\+Vertices} (int res, float amplitude, float\mbox{[}$\,$\mbox{]} inverse\+Map, int mesh\+Scale, Vector2 origin)
+\item 
+\Hypertarget{class_mesh_gen_aa38e4145bbcda383703e8d42fd116089}\label{class_mesh_gen_aa38e4145bbcda383703e8d42fd116089} 
+static int\mbox{[}$\,$\mbox{]} {\bfseries Create\+Triangles} ()
+\item 
+\Hypertarget{class_mesh_gen_a7c091f664d1303b35b4def94acd32406}\label{class_mesh_gen_a7c091f664d1303b35b4def94acd32406} 
+static void {\bfseries Update\+Mesh} (Mesh mesh, Vector3\mbox{[}$\,$\mbox{]} vertices, int\mbox{[}$\,$\mbox{]} triangles, Color\mbox{[}$\,$\mbox{]} colors)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_mesh_gen_a9b373ba1c032233a45daf3c1bbb08c59}\label{class_mesh_gen_a9b373ba1c032233a45daf3c1bbb08c59} 
+static \mbox{\hyperlink{class_noise_settings}{Noise\+Settings}} {\bfseries settings}
+\item 
+\Hypertarget{class_mesh_gen_a3dc1144f5e1bfb15a08330ec7c0c701d}\label{class_mesh_gen_a3dc1144f5e1bfb15a08330ec7c0c701d} 
+static Vector3\mbox{[}$\,$\mbox{]} {\bfseries origins}
+\item 
+\Hypertarget{class_mesh_gen_a635d9744cf77ebd73044f8496c91374d}\label{class_mesh_gen_a635d9744cf77ebd73044f8496c91374d} 
+static Vector3\mbox{[}$\,$\mbox{]} {\bfseries rotations}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_mesh_gen_ac0def996b74d806032174f60f7be1215}\index{MeshGen@{MeshGen}!GenerateMesh@{GenerateMesh}}
+\index{GenerateMesh@{GenerateMesh}!MeshGen@{MeshGen}}
+\doxysubsubsection{\texorpdfstring{GenerateMesh()}{GenerateMesh()}}
+{\footnotesize\ttfamily \label{class_mesh_gen_ac0def996b74d806032174f60f7be1215} 
+static Mesh Mesh\+Gen.\+Generate\+Mesh (\begin{DoxyParamCaption}\item[{int}]{res}{, }\item[{string}]{ID}{, }\item[{Vector3}]{position}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Debug.\+Log("{}\+Octave Offsets\+: "{} + string.\+Join("{}, "{}, octave\+Offsets.\+Select(o =\texorpdfstring{$>$}{>} o.\+To\+String()).To\+Array()));
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Mesh\+Gen.\+cs\end{DoxyCompactItemize}

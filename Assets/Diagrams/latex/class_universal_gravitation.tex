@@ -1,0 +1,112 @@
+\doxysection{Universal\+Gravitation Class Reference}
+\hypertarget{class_universal_gravitation}{}\label{class_universal_gravitation}\index{UniversalGravitation@{UniversalGravitation}}
+
+
+Inheritance diagram for Universal\+Gravitation\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_universal_gravitation__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Universal\+Gravitation\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_universal_gravitation__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_universal_gravitation_ac37120f9ba55c1e4dddcdef02f402be2}\label{class_universal_gravitation_ac37120f9ba55c1e4dddcdef02f402be2} 
+const double {\bfseries G} = 6.\+6743015e-\/11
+\item 
+\Hypertarget{class_universal_gravitation_a48018c7d500e3e4930daff6a79501cbd}\label{class_universal_gravitation_a48018c7d500e3e4930daff6a79501cbd} 
+const double {\bfseries adjustedG} = 1.\+190594655e-\/10
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_universal_gravitation_adfa3819713b476ef1c46e8d3ac7a7a1d}\label{class_universal_gravitation_adfa3819713b476ef1c46e8d3ac7a7a1d} 
+static int {\bfseries scale\+For\+Landing} = 1\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_universal_gravitation_a606ca6ae1c70bfef4540389994fdcb65}\label{class_universal_gravitation_a606ca6ae1c70bfef4540389994fdcb65} 
+void {\bfseries Start} ()
+\item 
+\Hypertarget{class_universal_gravitation_a1b67d75b7e790ae9e90fca35e8692b95}\label{class_universal_gravitation_a1b67d75b7e790ae9e90fca35e8692b95} 
+double {\bfseries Calculate\+Initial\+Vel} (\mbox{\hyperlink{class_celestial_body}{Celestial\+Body}} planet)
+\item 
+\Hypertarget{class_universal_gravitation_aecf99536ebcd71f6d53dc373ec96b54c}\label{class_universal_gravitation_aecf99536ebcd71f6d53dc373ec96b54c} 
+void {\bfseries Fixed\+Update} ()
+\item 
+\Hypertarget{class_universal_gravitation_aa2a1f408ae17a65b16c025e5f751df77}\label{class_universal_gravitation_aa2a1f408ae17a65b16c025e5f751df77} 
+double3 {\bfseries Calc\+Acc} (double3\mbox{[}$\,$\mbox{]} positions, int body\+Index, bool first\+Iteration=false)
+\item 
+\Hypertarget{class_universal_gravitation_a5c32836ed2e28e12461eedcf9602de97}\label{class_universal_gravitation_a5c32836ed2e28e12461eedcf9602de97} 
+void {\bfseries RK4} ()
+\item 
+\Hypertarget{class_universal_gravitation_a899ba8df684c8f3f087fb8c46bf0838e}\label{class_universal_gravitation_a899ba8df684c8f3f087fb8c46bf0838e} 
+void {\bfseries Change\+Scale} ()
+\item 
+\Hypertarget{class_universal_gravitation_a0e165d50e52631173531c5b2f818f45c}\label{class_universal_gravitation_a0e165d50e52631173531c5b2f818f45c} 
+double3\mbox{[}$\,$\mbox{]} {\bfseries temp\+Offset} (double3\mbox{[}$\,$\mbox{]} current\+State, double3\mbox{[}$\,$\mbox{]} calc\+Phase, float scale)
+\item 
+\Hypertarget{class_universal_gravitation_a8b22b4c03703f6cb4cceff1798560bd4}\label{class_universal_gravitation_a8b22b4c03703f6cb4cceff1798560bd4} 
+void {\bfseries remove\+Body} ()
+\item 
+\Hypertarget{class_universal_gravitation_ab3b69c4883bd5e512636b25749dffa22}\label{class_universal_gravitation_ab3b69c4883bd5e512636b25749dffa22} 
+void {\bfseries add\+Body} ()
+\item 
+\Hypertarget{class_universal_gravitation_a5def8e256f6dc7a3b89952eca0546626}\label{class_universal_gravitation_a5def8e256f6dc7a3b89952eca0546626} 
+void {\bfseries Update\+Floating\+Origin} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_universal_gravitation_a9c2a1b0a35f23e20f476ad7eb2ec05c3}\label{class_universal_gravitation_a9c2a1b0a35f23e20f476ad7eb2ec05c3} 
+\mbox{\hyperlink{class_celestial_body}{Celestial\+Body}}\mbox{[}$\,$\mbox{]} {\bfseries celestial\+Bodies}
+\item 
+\Hypertarget{class_universal_gravitation_aaee4965d6e6839303bf95ee9e11ac34f}\label{class_universal_gravitation_aaee4965d6e6839303bf95ee9e11ac34f} 
+float {\bfseries time\+Step} = 8\texorpdfstring{$\ast$}{*}60f
+\item 
+\Hypertarget{class_universal_gravitation_ae2ce4c7bcb341d099ea8bbafff9cf6e5}\label{class_universal_gravitation_ae2ce4c7bcb341d099ea8bbafff9cf6e5} 
+float {\bfseries sun\+Mass}
+\item 
+\Hypertarget{class_universal_gravitation_aaa70690205081aa31fd648fccf696e69}\label{class_universal_gravitation_aaa70690205081aa31fd648fccf696e69} 
+int {\bfseries celestial\+Body\+Count}
+\item 
+\Hypertarget{class_universal_gravitation_ade9b37f8877a0a5db63cad57484d5534}\label{class_universal_gravitation_ade9b37f8877a0a5db63cad57484d5534} 
+int {\bfseries min\+Body\+Count}
+\item 
+\Hypertarget{class_universal_gravitation_ab053bb7ba3377baf15a7ddeb4bafa683}\label{class_universal_gravitation_ab053bb7ba3377baf15a7ddeb4bafa683} 
+int {\bfseries max\+Body\+Count}
+\item 
+\Hypertarget{class_universal_gravitation_a10cc3bf888249f09f07b9b7d3da014ee}\label{class_universal_gravitation_a10cc3bf888249f09f07b9b7d3da014ee} 
+float {\bfseries dist\+To\+Landing} = 450f
+\item 
+\Hypertarget{class_universal_gravitation_a3c4d97562c5dbed0c8f5a48745b8be03}\label{class_universal_gravitation_a3c4d97562c5dbed0c8f5a48745b8be03} 
+bool {\bfseries landing} = false
+\item 
+\Hypertarget{class_universal_gravitation_a09e2cce8fdeb2fe843ea10b67dd9175b}\label{class_universal_gravitation_a09e2cce8fdeb2fe843ea10b67dd9175b} 
+bool {\bfseries leaving} = false
+\item 
+\Hypertarget{class_universal_gravitation_a2b8fa7f310117df118717455aea787e6}\label{class_universal_gravitation_a2b8fa7f310117df118717455aea787e6} 
+float {\bfseries distance\+Threshold} = 0.\+0001f
+\item 
+\Hypertarget{class_universal_gravitation_a584272209e10b05af05b9903629f37a4}\label{class_universal_gravitation_a584272209e10b05af05b9903629f37a4} 
+Game\+Object {\bfseries sun}
+\item 
+\Hypertarget{class_universal_gravitation_ab8a99b19c0fec5d2730636f5c86a8a1b}\label{class_universal_gravitation_ab8a99b19c0fec5d2730636f5c86a8a1b} 
+\mbox{\hyperlink{class_spaceship}{Spaceship}} {\bfseries spaceship}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Universal\+Gravitation.\+cs\end{DoxyCompactItemize}

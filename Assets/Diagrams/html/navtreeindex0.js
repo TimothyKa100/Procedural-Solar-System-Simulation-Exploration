@@ -1,0 +1,27 @@
+var NAVTREEINDEX0 =
+{
+"annotated.html":[0,0],
+"class_advanced_mesh_gen.html":[0,0,0],
+"class_celestial_body.html":[0,0,2],
+"class_main.html":[0,0,4],
+"class_map_gen.html":[0,0,5],
+"class_mesh_gen.html":[0,0,6],
+"class_mesh_gen.html#ac0def996b74d806032174f60f7be1215":[0,0,6,0],
+"class_noise_settings.html":[0,0,8],
+"class_quadtree.html":[0,0,10],
+"class_spaceship.html":[0,0,11],
+"class_universal_gravitation.html":[0,0,13],
+"class_updatable_data.html":[0,0,14],
+"classes.html":[0,1],
+"functions.html":[0,3,0],
+"functions_func.html":[0,3,1],
+"hierarchy.html":[0,2],
+"index.html":[],
+"pages.html":[],
+"struct_advanced_mesh_gen_setup.html":[0,0,1],
+"struct_chunk_gen.html":[0,0,3],
+"struct_noise_gen.html":[0,0,7],
+"struct_noise_settings_data.html":[0,0,9],
+"struct_triangle_u_int16.html":[0,0,12],
+"struct_vertex.html":[0,0,15]
+};

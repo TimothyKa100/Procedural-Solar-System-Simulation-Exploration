@@ -1,0 +1,7 @@
+<map id="CelestialBody" name="CelestialBody">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,123,171,320"/>
+<area shape="rect" id="Node000003" href="$class_spaceship.html" title=" " alt="" coords="12,368,164,853"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="91,335,91,368,86,368,86,335"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="38,5,139,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,90,91,123,86,123,86,90"/>
+</map>

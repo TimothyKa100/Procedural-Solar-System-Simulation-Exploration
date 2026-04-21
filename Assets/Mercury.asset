@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aadfc09900bc9f42bf5d28236520ef9, type: 3}
+  m_Name: Mercury
+  m_EditorClassIdentifier: 
+  seed: 10928
+  scale: 10000
+  octave: 25
+  persistance: 0.6
+  lacunarity: 2
+  frequency: 1
+  amplitude: 100
+  meshScale: 100
+  offset: {x: 0, y: 0, z: 0}
+  heightCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.24561381
+      value: 0.0019025691
+      inSlope: 0.02408902
+      outSlope: 0.02408902
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.24785888
+    - serializedVersion: 3
+      time: 0.6614463
+      value: 0.99205124
+      inSlope: 0.034932714
+      outSlope: 0.034932714
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.5352091
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gradient:
+    serializedVersion: 2
+    key0: {r: 0.4509804, g: 0.41960785, b: 0.38039216, a: 1}
+    key1: {r: 0.54901963, g: 0.5019608, b: 0.4509804, a: 1}
+    key2: {r: 0.4, g: 0.36862746, b: 0.34117648, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 32768
+    ctime2: 65535
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 3
+    m_NumAlphaKeys: 2

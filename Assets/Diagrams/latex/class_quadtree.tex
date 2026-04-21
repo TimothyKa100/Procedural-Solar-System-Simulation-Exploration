@@ -1,0 +1,136 @@
+\doxysection{Quadtree Class Reference}
+\hypertarget{class_quadtree}{}\label{class_quadtree}\index{Quadtree@{Quadtree}}
+
+
+Inheritance diagram for Quadtree\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_quadtree__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Quadtree\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_quadtree__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_quadtree_af3a5101ca3435ddcc8664c145ce2f1fc}\label{class_quadtree_af3a5101ca3435ddcc8664c145ce2f1fc} 
+void {\bfseries Initialise} (int res, Transform viewer, Quaternion rotation, string ID, Vector3 centre, Material material, Mesh mesh)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_quadtree_a1c0d234c8b963dda4d9003d5f15d8697}\label{class_quadtree_a1c0d234c8b963dda4d9003d5f15d8697} 
+Transform {\bfseries viewer}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_quadtree_ad48cb31da44b1d19c532a388bf3578c5}\label{class_quadtree_ad48cb31da44b1d19c532a388bf3578c5} 
+const float {\bfseries min\+Size} = 255f
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_quadtree_aa09f8121a4358569b2131b9064594328}\label{class_quadtree_aa09f8121a4358569b2131b9064594328} 
+void {\bfseries Update} ()
+\item 
+\Hypertarget{class_quadtree_addfb41f98872a3d0d279a91d2a6c191f}\label{class_quadtree_addfb41f98872a3d0d279a91d2a6c191f} 
+void {\bfseries regenerate} ()
+\item 
+\Hypertarget{class_quadtree_ac759f7cd294a4a27bf48966b52b457aa}\label{class_quadtree_ac759f7cd294a4a27bf48966b52b457aa} 
+void {\bfseries split\+Quad} ()
+\item 
+\Hypertarget{class_quadtree_a4fde6aa5583ab640f9775703b1c782d9}\label{class_quadtree_a4fde6aa5583ab640f9775703b1c782d9} 
+void {\bfseries Create\+Children} ()
+\item 
+\Hypertarget{class_quadtree_a50057dc0d74264f20dc4f610a7aa44ad}\label{class_quadtree_a50057dc0d74264f20dc4f610a7aa44ad} 
+void {\bfseries Get\+Children} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_quadtree_ab79abd32e9ccb9cbf1a92e89db515407}\label{class_quadtree_ab79abd32e9ccb9cbf1a92e89db515407} 
+Mesh {\bfseries mesh}
+\item 
+\Hypertarget{class_quadtree_a91d26e45b7ed6c4bd46e9399232693e7}\label{class_quadtree_a91d26e45b7ed6c4bd46e9399232693e7} 
+Bounds {\bfseries bounds}
+\item 
+\Hypertarget{class_quadtree_a4c4558ea00200c8a9da18034a2244667}\label{class_quadtree_a4c4558ea00200c8a9da18034a2244667} 
+\mbox{\hyperlink{class_quadtree}{Quadtree}}\mbox{[}$\,$\mbox{]} {\bfseries children} = new \mbox{\hyperlink{class_quadtree}{Quadtree}}\mbox{[}4\mbox{]}
+\item 
+\Hypertarget{class_quadtree_ac359d76669c8a71ba1565229c65f738a}\label{class_quadtree_ac359d76669c8a71ba1565229c65f738a} 
+Vector3 {\bfseries centre}
+\item 
+\Hypertarget{class_quadtree_a8de290486518e442f9dacc28212bee4d}\label{class_quadtree_a8de290486518e442f9dacc28212bee4d} 
+float {\bfseries side\+Length}
+\item 
+\Hypertarget{class_quadtree_a209db06b4f7b4abe63cb65bf9d9bd6dd}\label{class_quadtree_a209db06b4f7b4abe63cb65bf9d9bd6dd} 
+float {\bfseries threshold\+Sqrd\+Distance}
+\item 
+\Hypertarget{class_quadtree_a247342d4d26bf5431c19f6a545ba8d02}\label{class_quadtree_a247342d4d26bf5431c19f6a545ba8d02} 
+float {\bfseries quarter\+Length}
+\item 
+\Hypertarget{class_quadtree_a5a141d025ed4100177608ae3f16e55d5}\label{class_quadtree_a5a141d025ed4100177608ae3f16e55d5} 
+float {\bfseries sqr\+Distance}
+\item 
+\Hypertarget{class_quadtree_a44283eaf9d29ba13a776895449fc8087}\label{class_quadtree_a44283eaf9d29ba13a776895449fc8087} 
+int {\bfseries res}
+\item 
+\Hypertarget{class_quadtree_af3eb994bb81130e29fdd8de3ea688748}\label{class_quadtree_af3eb994bb81130e29fdd8de3ea688748} 
+bool {\bfseries active}
+\item 
+\Hypertarget{class_quadtree_a6cd976640163ef52a1ea39833dc73a79}\label{class_quadtree_a6cd976640163ef52a1ea39833dc73a79} 
+Mesh\+Renderer {\bfseries mesh\+Renderer}
+\item 
+\Hypertarget{class_quadtree_ab4edf701f62be89eafe95990582a27ce}\label{class_quadtree_ab4edf701f62be89eafe95990582a27ce} 
+Mesh\+Collider {\bfseries mesh\+Collider}
+\item 
+\Hypertarget{class_quadtree_a7be70cfaec0cc216181cd6aaca0a6381}\label{class_quadtree_a7be70cfaec0cc216181cd6aaca0a6381} 
+string {\bfseries ID}
+\item 
+\Hypertarget{class_quadtree_ae9ecc28abd214a97b8c348ec6013fbeb}\label{class_quadtree_ae9ecc28abd214a97b8c348ec6013fbeb} 
+Vector3 {\bfseries normalised\+Centre}
+\item 
+\Hypertarget{class_quadtree_a5be69a186d35878262c5f19af85ce263}\label{class_quadtree_a5be69a186d35878262c5f19af85ce263} 
+Quaternion {\bfseries rotation}
+\item 
+\Hypertarget{class_quadtree_adc85e7065ffb17bfcea6e22b1b88539a}\label{class_quadtree_adc85e7065ffb17bfcea6e22b1b88539a} 
+Material {\bfseries material}
+\item 
+\Hypertarget{class_quadtree_a528c1435845a7340bb276546d27c1567}\label{class_quadtree_a528c1435845a7340bb276546d27c1567} 
+Job\+Handle\mbox{[}$\,$\mbox{]} {\bfseries child\+Handle} = new Job\+Handle\mbox{[}4\mbox{]}
+\item 
+\Hypertarget{class_quadtree_a94372d1de27765a7e80b11b78f24b425}\label{class_quadtree_a94372d1de27765a7e80b11b78f24b425} 
+Mesh.\+Mesh\+Data\+Array\mbox{[}$\,$\mbox{]} {\bfseries child\+Array} = new Mesh.\+Mesh\+Data\+Array\mbox{[}4\mbox{]}
+\item 
+\Hypertarget{class_quadtree_a99b18be80cdaf42ac8354497c9ea1799}\label{class_quadtree_a99b18be80cdaf42ac8354497c9ea1799} 
+\mbox{\hyperlink{struct_noise_settings_data}{Noise\+Settings\+Data}}\mbox{[}$\,$\mbox{]} {\bfseries child\+Settings} = new \mbox{\hyperlink{struct_noise_settings_data}{Noise\+Settings\+Data}}\mbox{[}4\mbox{]}
+\item 
+\Hypertarget{class_quadtree_a503d7a383711efcc6a526c0b3460d1da}\label{class_quadtree_a503d7a383711efcc6a526c0b3460d1da} 
+string\mbox{[}$\,$\mbox{]} {\bfseries child\+ID} = new string\mbox{[}4\mbox{]}
+\item 
+\Hypertarget{class_quadtree_a61474cb9c72486bc3e14e8b28aad237d}\label{class_quadtree_a61474cb9c72486bc3e14e8b28aad237d} 
+int {\bfseries child\+Res}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_quadtree_a0c1ac01052c4c7d751b00e86d13aba61}\label{class_quadtree_a0c1ac01052c4c7d751b00e86d13aba61} 
+static readonly object {\bfseries job\+Handles\+Lock} = new object()
+\item 
+\Hypertarget{class_quadtree_a33b7dae6ce6293931b6f8d9c71d8eef4}\label{class_quadtree_a33b7dae6ce6293931b6f8d9c71d8eef4} 
+static Queue$<$ Job\+Handle $>$ {\bfseries job\+Handles} = new Queue$<$Job\+Handle$>$()
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Quadtree.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,148 @@
+\doxysection{Spaceship Class Reference}
+\hypertarget{class_spaceship}{}\label{class_spaceship}\index{Spaceship@{Spaceship}}
+
+
+Inheritance diagram for Spaceship\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_spaceship__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Spaceship\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_spaceship__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_spaceship_a382a73bbcc8527ecf9b0ef0a91d6d32d}\label{class_spaceship_a382a73bbcc8527ecf9b0ef0a91d6d32d} 
+Rigidbody {\bfseries rb}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes inherited from \mbox{\hyperlink{class_celestial_body}{Celestial\+Body}}}
+\begin{DoxyCompactItemize}
+\item 
+double3 {\bfseries vel}
+\item 
+double3 {\bfseries pos}
+\item 
+float {\bfseries tilt\+Angle}
+\item 
+float {\bfseries rotation\+Speed}
+\item 
+Vector3 {\bfseries initial\+Local\+Scale}
+\item 
+float {\bfseries mass}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_spaceship_a7034eb94c15af9ad84ad6d6dec29fc92}\label{class_spaceship_a7034eb94c15af9ad84ad6d6dec29fc92} 
+static System.\+Action {\bfseries On\+Collide}
+\item 
+\Hypertarget{class_spaceship_a0e30062729d14c027e7b0991f6c47171}\label{class_spaceship_a0e30062729d14c027e7b0991f6c47171} 
+static System.\+Action {\bfseries On\+Exit\+Collide}
+\item 
+\Hypertarget{class_spaceship_a91c49590035a8f24be5ae1c973e5c699}\label{class_spaceship_a91c49590035a8f24be5ae1c973e5c699} 
+static System.\+Action {\bfseries On\+Crash}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_spaceship_ab1e1badb4b59e17239779e756a9130e6}\label{class_spaceship_ab1e1badb4b59e17239779e756a9130e6} 
+void {\bfseries Awake} ()
+\item 
+\Hypertarget{class_spaceship_a288a9994c46e2e366bb2915146c9c08d}\label{class_spaceship_a288a9994c46e2e366bb2915146c9c08d} 
+void {\bfseries Update} ()
+\item 
+\Hypertarget{class_spaceship_a713df20d8e6db7f2cdc7906d0b272d75}\label{class_spaceship_a713df20d8e6db7f2cdc7906d0b272d75} 
+void {\bfseries Fixed\+Update} ()
+\item 
+\Hypertarget{class_spaceship_aaff1a6f2abacbc1641296e9695f0075b}\label{class_spaceship_aaff1a6f2abacbc1641296e9695f0075b} 
+void {\bfseries Move} ()
+\item 
+\Hypertarget{class_spaceship_a65025bb28b8a22e4e935c2a09d843d16}\label{class_spaceship_a65025bb28b8a22e4e935c2a09d843d16} 
+void {\bfseries Rotate} ()
+\item 
+\Hypertarget{class_spaceship_a21294b620bb3724f57803c044807e54e}\label{class_spaceship_a21294b620bb3724f57803c044807e54e} 
+void {\bfseries On\+Collision\+Enter} (Collision collision)
+\item 
+\Hypertarget{class_spaceship_a3919b08c45393194aac0a8dec91eb9a1}\label{class_spaceship_a3919b08c45393194aac0a8dec91eb9a1} 
+void {\bfseries On\+Collision\+Exit} (Collision collision)
+\item 
+\Hypertarget{class_spaceship_ac6c7b9564fe6be2acdf4a35a0f62b80b}\label{class_spaceship_ac6c7b9564fe6be2acdf4a35a0f62b80b} 
+void {\bfseries Check\+For\+Crash} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_spaceship_ab3fb7159a13da7bf49abbdab99f31e59}\label{class_spaceship_ab3fb7159a13da7bf49abbdab99f31e59} 
+Key\+Code {\bfseries forward} = Key\+Code.\+W
+\item 
+\Hypertarget{class_spaceship_ac35879685f9fd88434749081760148d9}\label{class_spaceship_ac35879685f9fd88434749081760148d9} 
+Key\+Code {\bfseries backward} = Key\+Code.\+S
+\item 
+\Hypertarget{class_spaceship_a5eb5372a3681fe54842a87ffe56e3d5b}\label{class_spaceship_a5eb5372a3681fe54842a87ffe56e3d5b} 
+Key\+Code {\bfseries left} = Key\+Code.\+A
+\item 
+\Hypertarget{class_spaceship_a3356f6c549b8b8f306afc2078db2a6b6}\label{class_spaceship_a3356f6c549b8b8f306afc2078db2a6b6} 
+Key\+Code {\bfseries right} = Key\+Code.\+D
+\item 
+\Hypertarget{class_spaceship_a6504c25ea9b1f8d36d7f0a6ed5c104be}\label{class_spaceship_a6504c25ea9b1f8d36d7f0a6ed5c104be} 
+Key\+Code {\bfseries ascend} = Key\+Code.\+Up\+Arrow
+\item 
+\Hypertarget{class_spaceship_a8e550d01d6b18c02a533c0959199f7f5}\label{class_spaceship_a8e550d01d6b18c02a533c0959199f7f5} 
+Key\+Code {\bfseries descend} = Key\+Code.\+Down\+Arrow
+\item 
+\Hypertarget{class_spaceship_abd46dc42eec703f9d19f19f5ce51d262}\label{class_spaceship_abd46dc42eec703f9d19f19f5ce51d262} 
+Key\+Code {\bfseries roll\+Counter} = Key\+Code.\+Left\+Arrow
+\item 
+\Hypertarget{class_spaceship_af13a9f1d1a54e6269055730c3c1c1fc0}\label{class_spaceship_af13a9f1d1a54e6269055730c3c1c1fc0} 
+Key\+Code {\bfseries roll\+Clock} = Key\+Code.\+Right\+Arrow
+\item 
+\Hypertarget{class_spaceship_ac32bd759dcbc07dbf5a0503f8a67519d}\label{class_spaceship_ac32bd759dcbc07dbf5a0503f8a67519d} 
+Vector3 {\bfseries thruster}
+\item 
+\Hypertarget{class_spaceship_a3f98a9cd9e71f06b0e05dbdd23a6920e}\label{class_spaceship_a3f98a9cd9e71f06b0e05dbdd23a6920e} 
+float {\bfseries thrust\+Strength} = 200.\+0f
+\item 
+\Hypertarget{class_spaceship_a608e33ce1c55584d44fc2b4f2485ece5}\label{class_spaceship_a608e33ce1c55584d44fc2b4f2485ece5} 
+float {\bfseries roller}
+\item 
+\Hypertarget{class_spaceship_a6eff0158bbd3d8c88177b8a36ca4caec}\label{class_spaceship_a6eff0158bbd3d8c88177b8a36ca4caec} 
+float {\bfseries ang\+Speed} = 1.\+0f
+\item 
+\Hypertarget{class_spaceship_a9851f880f76d36758174de582e07ef48}\label{class_spaceship_a9851f880f76d36758174de582e07ef48} 
+float {\bfseries roll\+Speed} = 1.\+0f
+\item 
+\Hypertarget{class_spaceship_a5b185a1d68a608359974c86735eaee6e}\label{class_spaceship_a5b185a1d68a608359974c86735eaee6e} 
+float {\bfseries smoothed\+Ang\+Speed} = 1.\+0f
+\item 
+\Hypertarget{class_spaceship_a1d55b7a6ba174ef6cf3f0a215baae80f}\label{class_spaceship_a1d55b7a6ba174ef6cf3f0a215baae80f} 
+float {\bfseries crash\+Speed} = 1.\+0f
+\item 
+\Hypertarget{class_spaceship_a3db43a39b534c9adfd6f09fe36e137bc}\label{class_spaceship_a3db43a39b534c9adfd6f09fe36e137bc} 
+Quaternion {\bfseries target\+Ang}
+\item 
+\Hypertarget{class_spaceship_a6aaacabf41bd4d2023195a16920f2b6f}\label{class_spaceship_a6aaacabf41bd4d2023195a16920f2b6f} 
+Quaternion {\bfseries smoothed\+Ang}
+\item 
+\Hypertarget{class_spaceship_a7218f25aa388de718d386fca9c4238de}\label{class_spaceship_a7218f25aa388de718d386fca9c4238de} 
+int {\bfseries num\+Collision\+Touches}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_celestial_body}{Celestial\+Body}}}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Awake} ()
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Spaceship Controls.\+cs\end{DoxyCompactItemize}
