@@ -61,7 +61,7 @@ Performance is further improved through multithreaded computation using Unity’
 
 A detailed technical report covering design decisions, algorithms, and implementation is available here:
 
-**→ `/docs/technical-report.pdf`**
+**→ `/technical-report.pdf`**
 
 ---
 
