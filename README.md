@@ -6,14 +6,12 @@ This project implements a procedurally generated solar system with real-time sim
 
 ## Demo
 
-<!-- Replace with your best video(s) -->
 
-[![Simulation Demo](https://img.youtube.com/vi/LYgtEewdooU/maxresdefault.jpg)](https://youtu.be/LYgtEewdooU?si=rPHQ_8jjByC70o_F)
+### Planetary Orbital System
+[![Planetary Orbital System](https://img.youtube.com/vi/LYgtEewdooU/maxresdefault.jpg)](https://youtu.be/LYgtEewdooU?si=rPHQ_8jjByC70o_F)
 
-<!-- Optional second video -->
-<!--
-[![Exploration Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID_2/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_2)
--->
+### Flyby
+[![Flyby](https://img.youtube.com/vi/DVpmlENlCnk/0.jpg)](https://youtu.be/DVpmlENlCnk?si=3vH9130XgJWf-_69)
 
 ---
 
