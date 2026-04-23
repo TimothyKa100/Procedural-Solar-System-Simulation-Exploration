@@ -8,7 +8,7 @@ This project implements a procedurally generated solar system with real-time sim
 
 <!-- Replace with your best video(s) -->
 
-[![Simulation Demo](https://img.youtube.com/vi//LYgtEewdooU/0.jpg)]([https://www.youtube.com/watch?v=/LYgtEewdooU])
+[![Simulation Demo](https://img.youtube.com/vi//LYgtEewdooU/maxresdefault.jpg)]([https://www.youtube.com/watch?v=/LYgtEewdooU])
 
 https://youtu.be/LYgtEewdooU?si=1GbhUSqzWDAxObaQ
 <!-- Optional second video -->
